@@ -12,10 +12,24 @@ select{
   margin: 0 5%;
 }
 
-#div1 {
-  background-color: black;
+#slideshow {
+  background-color: lightgray;
   height: 350px;
   max-height: 550px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+img {
+  max-width: 20%;
+  height: auto;
 }
 
 #div2 {
