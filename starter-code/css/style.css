@@ -3,6 +3,15 @@ header {
   height: 90px;
 }
 
+h1 {
+  text-align: center;
+}
+
+select{
+  width: 90%;
+  margin: 0 5%;
+}
+
 #div1 {
   background-color: black;
   height: 350px;

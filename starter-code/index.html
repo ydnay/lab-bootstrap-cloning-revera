@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
     <title>Revera Cloning with Bootstrap</title>
   </head>
 
   <body>
-    <header></header>
+    <header class="container">
+      <div class="row">
+        <div class="col-xs-4"><h1>REVERA</h1></div>
+        <div class="col-xs-8">
+          <select>
+            <option value="undefined">Select a Page</option>
+            <option value="#">Home</option>
+            <option value="#">About</option>
+            <option value="#">Sample Page</option>
+            <option value="#">Portfolio</option>
+            <option value="#">Blog</option>
+            <optgroup label="Parent Page">
+              <option value="#">Main</option>
+              <option value="#">Full page</option>
+              <option value="#">Child page 1</option>
+              <option value="#">Child page 2</option>
+            </optgroup>
+            <option value="#">Contact</option>
+          </select>
+        </div>
+      </div>
+    </header>
     <div id="div1"></div>
     <div id="div2"></div>
     <div id="div3"></div>
